@@ -25,3 +25,15 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards.encards >ul>li:nth-child(odd) {
+  /* background-color: #0ee472; */
+  display: flex;
+  flex-direction: column-reverse;
+  color: #e40e0e;
+}
+
+html[dir='rtl'] .cards >ul>li > .cards-card-body > p {
+  color: #0ee472;
+ 
+}
